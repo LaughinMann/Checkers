@@ -1,5 +1,8 @@
-# [[file:checker.org::*questions][questions:1]]
-# !/usr/bin/env python3
+# STUDENT NAME: Kelvin Dhoman
+# Due Date: June 17, 2022
+# Course: CAP4630
+# Professor: Dr. Marques
+# Description: Checkers game featuring A.I using the EasyAI Framework
 from easyAI import TwoPlayerGame, Human_Player, AI_Player, Negamax
 from easyAI import solve_with_iterative_deepening
 import numpy as np
@@ -225,4 +228,3 @@ if __name__ == "__main__":
     ai = Negamax(1) # The AI will think 13 moves in advance
     game = Checker( [ AI_Player(ai), AI_Player(ai) ] )
     history = game.play()
-# questions:1 ends here
